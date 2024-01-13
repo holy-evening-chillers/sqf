@@ -15,7 +15,7 @@ setup(
     ],
     entry_points={
         'console_scripts': [
-            'sqflint = sqf.cli.main',
+            'sqflint = sqf.cli:main',
         ],
     },
     classifiers=[
