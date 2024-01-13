@@ -6,16 +6,16 @@ setup(
     author='Lord Golias',
     author_email='lord.golias1@gmail.com',
     description='Parser, static analyzer and interpreter of SQF (Arma)',
-    url='https://github.com/LordGolias/sqf',
+    url='https://github.com/holy-evening-chillers/sqf',
     license='BSD',
     packages=['sqf'],
     include_package_data=True,
     scripts=[
-        'sqflint.py'
+         'sqflint.py'
     ],
     entry_points={
         'console_scripts': [
-            'sqflint = sqflint:main',
+            'sqflint = sqf.cli:main',
         ],
     },
     classifiers=[
