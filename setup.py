@@ -11,7 +11,7 @@ setup(
     packages=['sqf'],
     include_package_data=True,
     scripts=[
-        'sqflint.py'
+         'sqflint.py'
     ],
     entry_points={
         'console_scripts': [
